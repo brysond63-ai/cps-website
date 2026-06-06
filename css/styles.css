@@ -1852,3 +1852,8 @@ a {
 .fact-list { list-style: none; padding: 0; margin: 0; }
 .fact-list li { padding: 0.65rem 0; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 0.96rem; line-height: 1.45; }
 .fact-list li:first-child { border-top: none; }
+
+/* --- Mobile: keep the single portrait tidy --- */
+@media (max-width: 900px) {
+  .practice-about-grid .practice-portrait { max-width: 340px; margin: 0 auto; }
+}
